@@ -42,18 +42,33 @@ public class RunWRO
 		robbie.drive(27);
 		robbie.gyroRotateccl(90);
 		robbie.drive(40);
-		robbie.drive(-5);
+		robbie.drive(-7);
 		robbie.gyroRotateccr(180);
-		robbie.drive(77);
+		robbie.drive(75);
 		
 		
 	}
 	//nebeneinander
 	public static void driveConfig2() {
+		robbie.drive(27);
+		robbie.gyroRotateccl(90);
+		robbie.drive(40);
+		robbie.drive(-7);
+		robbie.gyroRotateccr(180);
+		robbie.drive(33);
+		robbie.gyroRotateccr(90);
+		robbie.drive(100);
+		robbie.gyroRotateccr(90);
+		robbie.drive(40);
+		robbie.drive(-7);
+		robbie.gyroRotateccr(180);
+		robbie.drive(40);
+		
 		
 	}
 	//diagonal
 	public static void driveConfig3() {
+		robbie.gyroRotateccr(180);
 		
 	}
 	
